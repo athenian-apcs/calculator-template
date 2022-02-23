@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Calculator c = new Calculator();
-        QuadForm q = new QuadForm();
+        Quadratic q = new Quadratic();
+//        Calculator c = new Calculator();
     }
 }

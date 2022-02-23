@@ -1,6 +1,6 @@
-# Week 7 Day 2: Swing Layouts
+# Week 8 Day 1: GUI Classes and ActionListener Interface
 
-In class today, we'll be working with layouts and JPanels. 
+In class today, we'll be working with GUI Classes and the ActionListener Interface. 
 
 <br />
 
