@@ -4,6 +4,7 @@ import java.awt.event.*;
 
 public class Calculator implements ActionListener {
 
+    // Swing instance variables
     JFrame frame;
     JTextField field1;
     JPanel panel1, panel2, panel3, panel4;
@@ -11,6 +12,10 @@ public class Calculator implements ActionListener {
             button6, button7, button8, button9, button0,
             buttonDivide, buttonTimes, buttonMinus, buttonPlus,
             buttonClear, buttonEquals;
+
+    // Instance variables that will be used for our math
+    String op;
+    int arg1;
 
     public Calculator() {
         // 1. Create the frame (the window that will pop up)
@@ -21,7 +26,6 @@ public class Calculator implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // 3. Create components and put them in the frame
-
         field1 = new JTextField(15);
         field1.setHorizontalAlignment(SwingConstants.RIGHT);
 
